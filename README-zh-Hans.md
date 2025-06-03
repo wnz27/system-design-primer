@@ -390,13 +390,13 @@
 
 ### 第二步：回顾可扩展性文章
 
-[可扩展性](http://www.lecloud.net/tagged/scalability/chrono)
+[可扩展性](https://web.archive.org/web/20221030091841/http://www.lecloud.net/tagged/scalability/chrono)
 
 * 主题涵盖：
-    * [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
-    * [数据库](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
-    * [缓存](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
-    * [异步](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
+    * [Clones](https://web.archive.org/web/20220530193911/https://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
+    * [数据库](https://web.archive.org/web/20220602114024/https://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
+    * [缓存](https://web.archive.org/web/20230126233752/https://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
+    * [异步](https://web.archive.org/web/20220926171507/https://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
 
 ### 接下来的步骤
 
@@ -673,7 +673,7 @@ CDN 拉取是当第一个用户请求该资源时，从服务器上拉取资源�
 
 * [NGINX 架构](https://www.nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/)
 * [HAProxy 架构指南](http://www.haproxy.org/download/1.2/doc/architecture.txt)
-* [可扩展性](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
+* [可扩展性](https://web.archive.org/web/20220530193911/https://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
 * [Wikipedia](https://en.wikipedia.org/wiki/Load_balancing_(computing))
 * [四层负载平衡](https://www.nginx.com/resources/glossary/layer-4-load-balancing/)
 * [七层负载平衡](https://www.nginx.com/resources/glossary/layer-7-load-balancing/)
@@ -1044,7 +1044,7 @@ Google 发布了第一个列型存储数据库 [Bigtable](http://www.read.seas.h
 
 - [数据库术语解释](http://stackoverflow.com/questions/3342497/explanation-of-base-terminology)
 - [NoSQL 数据库 - 调查及决策指南](https://medium.com/baqend-blog/nosql-databases-a-survey-and-decision-guidance-ea7823a822d#.wskogqenq)
-- [可扩展性](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
+- [可扩展性](https://web.archive.org/web/20220602114024/https://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
 - [NoSQL 介绍](https://www.youtube.com/watch?v=qI_g07C_Q5I)
 - [NoSQL 模式](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
 
@@ -1277,7 +1277,7 @@ def set_user(user_id, values):
 - [可扩展系统设计模式](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
 - [可缩放系统构架介绍](http://lethain.com/introduction-to-architecting-systems-for-scale/)
 - [可扩展性，可用性，稳定性和模式](http://www.slideshare.net/jboner/scalability-availability-stability-patterns/)
-- [可扩展性](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
+- [可扩展性](https://web.archive.org/web/20230126233752/https://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
 - [AWS ElastiCache 策略](http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/Strategies.html)
 - [维基百科](https://en.wikipedia.org/wiki/Cache_(computing))
 
@@ -1462,7 +1462,7 @@ RPC 专注于暴露方法。RPC 通常用于处理内部通讯的性能问题，
 * RPC 客户端与服务实现捆绑地很紧密。
 * 一个新的 API 必须在每一个操作或者用例中定义。
 * RPC 很难调试。
-* 你可能没办法很方便的去修改现有的技术。举个例子，如果你希望在 [Squid](http://www.squid-cache.org/) 这样的缓存服务器上确保 [RPC 被正确缓存](http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/)的话可能需要一些额外的努力了。
+* 你可能没办法很方便的去修改现有的技术。举个例子，如果你希望在 [Squid](http://www.squid-cache.org/) 这样的缓存服务器上确保 [RPC 被正确缓存](https://web.archive.org/web/20170608193645/http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/)的话可能需要一些额外的努力了。
 
 ### 表述性状态转移（REST）
 
@@ -1514,7 +1514,7 @@ REST 关注于暴露数据。它减少了客户端／服务端的耦合程度，
 * [你真的知道你为什么更喜欢 REST 而不是 RPC 吗](https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/)
 * [什么时候 RPC 比 REST 更合适？](http://programmers.stackexchange.com/a/181186)
 * [REST vs JSON-RPC](http://stackoverflow.com/questions/15056878/rest-vs-json-rpc)
-* [揭开 RPC 和 REST 的神秘面纱](http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/)
+* [揭开 RPC 和 REST 的神秘面纱](https://web.archive.org/web/20170608193645/http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/)
 * [使用 REST 的缺点是什么](https://www.quora.com/What-are-the-drawbacks-of-using-RESTful-APIs)
 * [破解系统设计面试](http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview)
 * [Thrift](https://code.facebook.com/posts/1468950976659943/)
@@ -1743,6 +1743,7 @@ Notes
 * [Salesforce Engineering Blog](https://developer.salesforce.com/blogs/engineering/)
 * [Slack Engineering Blog](https://slack.engineering/)
 * [Spotify Labs](https://labs.spotify.com/)
+* [Stripe Engineering Blog](https://stripe.com/blog/engineering)
 * [Twilio Engineering Blog](http://www.twilio.com/engineering)
 * [Twitter Engineering](https://engineering.twitter.com/)
 * [Uber Engineering Blog](http://eng.uber.com/)
